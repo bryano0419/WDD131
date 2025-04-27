@@ -1,0 +1,87 @@
+/* General Reset */
+* {
+    margin:80;
+    padding: 80;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    color: #000;
+}
+
+/* Container for All Content */
+.container {
+    border: 1px solid black; /* Thin black border around the entire container */
+    padding: 20px;
+    max-width: 750px; /* Adjust width to give some breathing room */
+    margin: 20px auto; /* Center the container */
+}
+
+/* Header Styling */
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    color: #000; /* Black color for the mission statement */
+    padding-bottom: 15px; /* Space between text and line */
+}
+
+header h2 {
+    font-size: 24px;
+    color: #00A9E0; /* Light blue color for the university name */
+    margin-top: 10px;
+    display: inline-block; /* Makes the line length match the text */
+    border-bottom: 2px solid #a0a5a6; /* Thin blue line under the university name */
+    padding-bottom: 10px; /* Space between text and the blue line */
+}
+
+/* Main Content Styling */
+main {
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+ol {
+    margin-top: 20px;
+    padding-left: 20px; /* Indent the numbers slightly */
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
