@@ -1,28 +1,33 @@
-/* General Reset */
+/* Reset and base styles */
 * {
-    margin:80;
-    padding: 80;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
-/* Body Styling */
 body {
     font-family: 'Times New Roman', serif;
     font-size: 20px;
     line-height: 1.5;
     text-align: center;
     color: #000;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
-/* Container for All Content */
+/* Container box */
 .container {
-    border: 1px solid black; /* Thin black border around the entire container */
+    border: 1px solid black;
     padding: 20px;
-    max-width: 750px; /* Adjust width to give some breathing room */
-    margin: 20px auto; /* Center the container */
+    max-width: 800px;
+    margin: 20px auto;
 }
 
-/* Header Styling */
+/* Header section */
 header {
     margin-bottom: 20px;
 }
@@ -32,53 +37,53 @@ header h1 {
     text-transform: uppercase;
     letter-spacing: 3px;
     margin-bottom: 10px;
-    color: #000; /* Black color for the mission statement */
-    padding-bottom: 15px; /* Space between text and line */
+    color: #000;
+    padding-bottom: 15px;
 }
 
 header h2 {
     font-size: 24px;
-    color: #00A9E0; /* Light blue color for the university name */
+    color: #00A9E0; 
     margin-top: 10px;
-    display: inline-block; /* Makes the line length match the text */
-    border-bottom: 2px solid #a0a5a6; /* Thin blue line under the university name */
-    padding-bottom: 10px; /* Space between text and the blue line */
+    display: block; 
+    width: 100%;
+    max-width: 600px;
+    margin: 10px auto 0;
+    border-bottom: 2px solid #b9bec0;
+    padding-bottom: 10px; 
+    text-align: center;
 }
 
-/* Main Content Styling */
+
+/* Main content */
 main {
     text-align: left;
 }
 
-ul {
-    list-style-type: none;
-    margin-top: 20px;
-}
-
-ul li {
-    margin-bottom: 10px;
-}
-
-/* Footer Styling */
-footer {
-    margin-top: 20px;
-    text-align: center;
-}
-
-#logo {
-    width: 150px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
+/* Ordered list (numbered list) */
 ol {
     margin-top: 20px;
-    padding-left: 20px; /* Indent the numbers slightly */
+    padding-left: 60px; /* indent the numbers */
 }
 
 ol li {
     margin-bottom: 10px;
 }
+
+/* Footer section */
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Logo styling */
+#logo {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 70px auto 0;
+}
+
 
 
 
