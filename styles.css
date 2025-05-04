@@ -11,9 +11,27 @@ body {
     text-align: center;
     color: #000;
     padding: 20px;
+    background-color: #fff;
 }
 
-/* Container box */
+body.dark {
+    background-color: #333; 
+    color: #fff;            
+}
+
+body.dark header h1 {
+    color: #fff;
+}
+
+body.dark header h2 {
+    color: #8ED1FC;
+    border-color: #777;
+}
+
+body.dark a {
+    color: #66ccff;
+}
+
 .container {
     border: 1px solid black;
     padding: 20px;
@@ -26,7 +44,8 @@ header {
 }
 
 header h1 {
-    font-size: 32px;
+    font-size: 44px;
+    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 10px;
@@ -34,13 +53,16 @@ header h1 {
 }
 
 header h2 {
-    font-size: 22px;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 2px;
     color: #006EB6; 
     margin-top: 10px;
     display: inline-block; 
     border-bottom: 2px solid #b9bec0;
     padding-bottom: 5px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 main {
@@ -53,12 +75,14 @@ main p {
 }
 
 ol {
-    padding-left: 30px; 
+    padding-left: 50px; 
     margin-top: 10px;
 }
 
 ol li {
     margin-bottom: 10px;
+    text-indent: -20px; 
+    padding-left: 20px; 
 }
 
 footer {
@@ -73,21 +97,3 @@ footer {
     margin: 0 auto;
     margin-top: 20px;
 }
-
-ol {
-    padding-left: 50px; 
-    margin-top: 10px;
-}
-
-ol li {
-    margin-bottom: 10px;
-    text-indent: -20px; 
-    padding-left: 20px; 
-}
-
-
-
-
-
-
-
