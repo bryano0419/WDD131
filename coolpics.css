@@ -84,6 +84,17 @@ nav {
   text-align: center;
   margin-top: 1em;
 }
+    /* background: white;                           
+    padding: 8px;                                
+    border: 4px solid white;                    
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3);  
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  } */
+
+  .gallery img:hover {
+    transform: translateY(-4px);
+    box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.5);
+  }
 
 nav button {
   background: none;
@@ -106,9 +117,22 @@ a:visited {
   }
 }
 
-@media screen and (min-width: 1000px) {
+/* @media screen and (min-width: 1000px) {
   .gallery {
     grid-template-columns: 1fr 1fr 1fr;
+@media (min-width: 700px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+} */
+
+@media (min-width: 1000px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  nav button {
+    display: none;
   }
 
   nav {
